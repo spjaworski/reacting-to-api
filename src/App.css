@@ -1,0 +1,10 @@
+.banner {
+    height: 800px;
+    width: 1200px;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
