@@ -6,5 +6,19 @@
 .btnContainer {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    justify-content: center;
+}
+
+.button {
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid black;
+    background-color: rgba(100, 112, 246, 0.335);
+    margin: 2em;
+}
+
+.welcome {
+    padding: 5px;
+    background-color: rgba(100, 112, 246, 0.335);
+    text-align: center;
 }

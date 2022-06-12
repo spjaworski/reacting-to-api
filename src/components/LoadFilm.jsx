@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react';
 
 const LoadFilm = () => {
 
-    const [buttonText, setBtnText] = useState('Films');
+    // const [buttonText, setBtnText] = useState('Films');
 
     const [isloaded, setloaded] = useState(false);
 
@@ -43,10 +43,10 @@ const LoadFilm = () => {
         <main>
        
             <div>
-                <button onClick={handleLoad} type="button" value="LoadFilm">{buttonText}</button>
+                {/* <button onClick={handleLoad} type="button" value="LoadFilm">{buttonText}</button> */}
                 <div className='row justify-content-center mt-5'>
                 
-                    {isloaded && films.map(film => (
+                    {films.map(film => (
                         <div key ={`film-card-${film.id}`}>
                             <div style={{width: "1300px"}} className="card shadow my-2">
                                 <div className='card-body'>
